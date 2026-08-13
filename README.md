@@ -26,12 +26,23 @@
 
 **1. 启动后端**（占用 8080 端口）
 
+Linux / macOS：
+
 ```bash
 cd backend
 ./mvnw spring-boot:run
 ```
 
+Windows（PowerShell 或 CMD）：
+
+```powershell
+cd backend
+.\mvnw.cmd spring-boot:run
+```
+
 **2. 启动前端**（占用 5173 端口）
+
+Linux / macOS / Windows 都一样：
 
 ```bash
 cd frontend
